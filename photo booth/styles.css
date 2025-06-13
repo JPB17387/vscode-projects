@@ -5,13 +5,13 @@ body{
 }
 
 .container{
+    border: 2px solid;
     text-align: center;
 }
 
 #video{
-    border: 2px solid rgb(50, 168, 7);
-    width: 800px;
-    height: 400px;
+    width: 1000px;
+    height: 450px;
 }
 .controls input{
     border: 2px solid red;
