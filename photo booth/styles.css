@@ -1,7 +1,22 @@
 body{
+    background-image: url(pb_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    image-resolution: 1000;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+h1{
+    color: rgb(158, 193, 223);
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 520px;
+    margin-right: 520px;
+    border: 4px rgb(43, 186, 33) inset;
+    border-radius: 10px;
 }
 
 .container{
@@ -11,7 +26,7 @@ body{
 
 #video{
     width: 1000px;
-    height: 450px;
+    height: 400px;
 }
 .controls input{
     border: 2px solid red;
@@ -29,6 +44,7 @@ body{
 }
 
 #photos{
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
